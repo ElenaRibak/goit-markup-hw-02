@@ -78,6 +78,10 @@ body {
   color: var(--accent-color);
 }
 
+.header-list .link.current {
+  color: #2196f3;
+}
+
 /*-------------HERo-------------*/
 
 .hero-title {
