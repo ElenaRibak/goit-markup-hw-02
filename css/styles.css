@@ -8,6 +8,9 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
 .list {
@@ -18,6 +21,9 @@ body {
   text-decoration: none;
 }
 
+address {
+  font-style: normal;
+}
 /*-----------LOGo----------*/
 
 .logo-accent {
@@ -53,7 +59,7 @@ body {
 .header-mail {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
@@ -168,12 +174,24 @@ body {
 
 /*--------------footer--------*/
 
+.footer-address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-address {
+  background: var(--black-title-color);
+}
+
 .footer-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--white-title-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-link {
@@ -197,10 +215,20 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--header-color);
+  color: var(--white-title-color);
 }
 
-/*-----portfolio-------*/
+.footer-logo {
+  background: var(--black-title-color);
+}
+
+.footer-link:hover,
+.footer-link:focus,
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--accent-color);
+}
+/*----------------------portfolio-----------------*/
 
 .box-title {
   font-weight: 700;
